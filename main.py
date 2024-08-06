@@ -8,8 +8,6 @@ import json
 # Add mongodb utils 
 from scripts import db_utils as dbu
 
-app = Flask(__name__)
-
 # Set parameters for client connection to mongodb
 client = MongoClient(f"{dbu.mongo_uri}")
 print("Connection Successul")
