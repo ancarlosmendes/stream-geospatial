@@ -48,7 +48,7 @@ if selected_value:
         # Add markers for each data point
         for item in data:
             folium.CircleMarker(
-                location=[item['latitude'], item['longitude']],
+                location=[item['lat'], item['lon']],
                 radius=5,
                 popup=f"CFB: {item['cfb']}",
                 color=get_color(item['cfb']),
