@@ -3,7 +3,6 @@ from streamlit_folium import st_folium
 from pymongo import MongoClient
 import geopandas as gpd
 import config
-import json
 
 # Add mongodb utils 
 from scripts import db_utils as dbu
